@@ -1,0 +1,27 @@
+<div class="row center">
+  <button (click)="refreshTime()" class="btn btn-info btn-lg">Reset</button>
+</div>
+<div class="card">
+  <div class="clock">
+    <div class="num num1">1</div>
+    <div class="num num2">2</div>
+    <div class="num num3">3</div>
+    <div class="num num4">4</div>
+    <div class="num num5">5</div>
+    <div class="num num6">6</div>
+    <div class="num num7">7</div>
+    <div class="num num8">8</div>
+    <div class="num num9">9</div>
+    <div class="num num10">10</div>
+    <div class="num num11">11</div>
+    <div class="num num12">12</div>
+    <div class="hr-hand" #hrHand></div>
+    <div class="min-hand" #minHand></div>
+    <div class="sec-hand" #secHand></div>
+  </div>
+</div>
+<div class="row center">
+    <button (click)="updateTime(1)" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-circle-arrow-up"></span></button> &nbsp;
+    <button (click)="updateTime(-1)" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-circle-arrow-down"></span></button> &nbsp;
+    <button (click)="syncTime()" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-cloud-upload"></span></button>
+</div>
