@@ -5,6 +5,13 @@
   .py-20{
     padding-top: 20px;
     padding-bottom: 20px;
+  }  
+  .toggle-label{
+    font-size: 14px;
+  }
+  .py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .switch {
     position: relative;

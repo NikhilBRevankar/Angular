@@ -179,3 +179,6 @@
 .num12 div{
     transform: rotate(-0deg);
 }
+.ml-20{
+    margin-left: 20px;
+}
